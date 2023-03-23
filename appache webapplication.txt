@@ -1,0 +1,21 @@
+sudo apt install update
+
+
+
+
+sudo apt install apache2
+ 
+ download sample html static website cd /var/www/html/
+ls
+sudo rm index.html ( default)    delete
+cd
+
+cp -r flodernames  /var/www/html/
+
+
+cp index.html   /var/www/html/    ( your own)
+
+
+
+sudo systemctl   start  apache2
+
